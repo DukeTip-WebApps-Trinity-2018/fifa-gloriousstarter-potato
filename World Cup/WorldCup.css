@@ -1,0 +1,72 @@
+body {
+    background: #55ACEE;
+}
+
+footer {
+    background-color:  #1B2CC1;
+    width: 100%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #abd2fa;
+    color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+    background: black;
+    color: white;
+}
+
+#socialMediaColor {
+    color: white;
+}
+
+
+nav {
+    background-color: #1b2cc1;
+    color: #FFFFFF;
+}
+
+table {
+    color: white;
+}
+
+@media (max-width: 600px){
+    .carousel-item {
+        height: 33%;
+        width: 33%;
+    }
+    
+    
+}
+
+div1 {
+    align-content: center;
+}
+
+.btn:hover {
+    background-color: blue;
+}
