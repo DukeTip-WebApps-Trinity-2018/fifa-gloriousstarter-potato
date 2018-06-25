@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS must be first -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <!--WorldCup CSS-->
+    <link rel="stylesheet" type="text/css" href="../World Cup/WorldCup.css">
+
+    <title>FIFA World Cup 2018</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="../World Cup/worldcup.html">FIFA World Cup</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../World Cup/worldcup.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="featuredVideos.html">Featured Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../World Cup/scores.html">Scores</a>
+                <li>
+                    <a class="nav-link" href="#">Standings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../World Cup/weather.html">Weather</a>
+                </li>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Teams
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43922/" target=_blank>Argentina</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43976/" target=_blank>Australia</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43935/" target=_blank>Belgium</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43924/" target=_blank>Brazil</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43926/" target=_blank>Colombia</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43901/" target=_blank>Costa Rica</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43938/" target=_blank>Croatia</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43941/" target=_blank>Denmark</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43855/" target=_blank>Egypt</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43942/" target=_blank>England</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43946/" target=_blank>France</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43948/" target=_blank>Germany</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43951/" target=_blank>Iceland</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43817/" target=_blank>Iran</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43819/" target=_blank>Japan</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43822/" target=_blank>Korea Republic</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43911/" target=_blank>Mexico</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43872/" target=_blank>Morocco</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43876/" target=_blank>Nigeria</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43914/" target=_blank>Panama</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43929/" target=_blank>Peru</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43962/" target=_blank>Poland</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43963/" target=_blank>Portugal</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43965/" target=_blank>Russia</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43835/" target=_blank>Saudi Arabia</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43879/" target=_blank>Senegal</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/1902465/" target=_blank>Serbia</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43969/" target=_blank>Spain</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43970/" target=_blank>Sweden</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43971/" target=_blank>Switzerland</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43888/" target=_blank>Tunisia</a>
+                        <a class="dropdown-item" href="https://www.fifa.com/worldcup/teams/team/43930/" target=_blank>Uraguay</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</head>
+
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Matches Played</th>
+                <th scope="col">Wins</th>
+                <th scope="col">Draws</th>
+                <th scope="col">Losses</th>
+                <th scope="col">Goals Scored</th>
+                <th scope="col">Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Russia</th>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>5</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="row">Uruguay</th>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="row">Egypt</th>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Saudi Arabia</th>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Iran</th>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="row">Portugal</th>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>3</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th scope="row">Spain</th>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>3</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th scope="row">Morocco</th>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">France</th>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="row">Denmark</th>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="row">Australia</th>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Peru</th>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Croatia</th>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="row">Iceland</th>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th scope="row">Argentina</th>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th scope="row">Nigeria</th>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Serbia</th>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="row">Brazil</th>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th scope="row">Switzerland</th>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th scope="row">Costa Rica</th>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Sweden</th>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="row">Mexico</th>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="row">South Korea</th>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Germany</th>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Belgium</th>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="row">England</th>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="row">Tunisia</th>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Panama</th>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Japan</th>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="row">Poland</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Senegal</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Colombia</th>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <footer>
+        <div class="text-center">
+            <div id="socialMediaColor">
+                <h3>Social Media</h3>
+            </div>
+            <div class="socialMediaIcons">
+                <a href="https://www.facebook.com/fifaworldcup/" class="fa fa-facebook" target=_blank></a>
+                <a href="https://twitter.com/fifaworldcup" class="fa fa-twitter" target=_blank></a>
+                <a href="https://www.instagram.com/fifaworldcup/?hl=en" class="fa fa-instagram" target=_blank></a>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>

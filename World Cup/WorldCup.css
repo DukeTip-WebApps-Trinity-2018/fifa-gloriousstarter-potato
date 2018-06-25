@@ -5,6 +5,8 @@ body {
 footer {
     background-color:  #1B2CC1;
     width: 100%;
+    height: 100px;
+    padding: 100px;
 }
 
 .fa {
@@ -69,4 +71,14 @@ div1 {
 
 .btn:hover {
     background-color: blue;
+    color: white;
+}
+
+#weathermargin {
+    margin: 50px;
+    text-align: center;
+    color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
